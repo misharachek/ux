@@ -1,13 +1,19 @@
-import {async,
+import {
+  async,
   ComponentFixture,
   TestBed
 } from '@angular/core/testing';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+
+// angular material
+import {MatCardModule} from "@angular/material";
 
 // children
 import {HeaderModule} from '../header';
 import {ContentModule} from '../content';
 import {FooterModule} from '../footer';
 
+// root component
 import {TodolistComponent} from './todolist.component';
 
 describe('TodolistComponent', () => {
@@ -22,7 +28,9 @@ describe('TodolistComponent', () => {
       imports: [
         HeaderModule,
         ContentModule,
-        FooterModule
+        BrowserAnimationsModule,
+        FooterModule,
+        MatCardModule
       ]
     })
     .compileComponents();

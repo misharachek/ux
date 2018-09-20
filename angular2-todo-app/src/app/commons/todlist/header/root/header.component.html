@@ -1,3 +1,14 @@
-<p>
-  header works!
-</p>
+<div class="row margin">
+  <div class="col-md-7 col-md-offset-1 padding">
+    <mat-form-field class="form-full-width">
+      <input matInput placeholder="{{locales.HeaderInputPlaceholder}}">
+    </mat-form-field>
+  </div>
+
+  <div class="col-md-2 col-md-offset-1 padding">
+    <button class="header-add-button"
+            mat-raised-button
+            color="primary">{{locales.HeaderAddButtonTitle}}</button>
+  </div>
+  <div class="col-md-1"></div>
+</div>

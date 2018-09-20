@@ -6,6 +6,10 @@ import {HeaderModule} from './header';
 import {ContentModule} from './content';
 import {FooterModule} from './footer';
 
+// angular material
+import {MatCardModule} from "@angular/material";
+
+//rot component
 import {TodolistComponent} from './root';
 
 @NgModule({
@@ -13,7 +17,8 @@ import {TodolistComponent} from './root';
     CommonModule,
     HeaderModule,
     ContentModule,
-    FooterModule
+    FooterModule,
+    MatCardModule
   ],
   declarations: [
     TodolistComponent

@@ -1,11 +1,20 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
 
-import { HeaderComponent } from './root';
+// angular material
+import {
+  MatButtonModule,
+  MatInputModule
+} from "@angular/material";
+
+// root component
+import {HeaderComponent} from './root';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    MatInputModule,
+    MatButtonModule
   ],
   declarations: [
     HeaderComponent

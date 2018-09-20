@@ -4,6 +4,14 @@ import {
   TestBed
 } from '@angular/core/testing';
 
+// angular material
+import {
+  MatButtonModule,
+  MatInputModule
+} from "@angular/material";
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+
+// root component
 import {HeaderComponent} from './header.component';
 
 describe('HeaderComponent', () => {
@@ -12,7 +20,14 @@ describe('HeaderComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ HeaderComponent ]
+      declarations: [
+        HeaderComponent
+      ],
+      imports: [
+        BrowserAnimationsModule,
+        MatInputModule,
+        MatButtonModule
+      ]
     })
     .compileComponents();
   }));
