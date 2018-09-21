@@ -4,6 +4,14 @@ import {
   TestBed
 } from '@angular/core/testing';
 
+// angular material
+import {
+  MatCheckboxModule,
+  MatDividerModule,
+  MatIconModule
+} from '@angular/material';
+
+// root component
 import {TodolistItemComponent} from './todolist-item.component';
 
 describe('TodolistItemComponent', () => {
@@ -12,7 +20,14 @@ describe('TodolistItemComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ TodolistItemComponent ]
+      declarations: [
+        TodolistItemComponent
+      ],
+      imports: [
+        MatCheckboxModule,
+        MatDividerModule,
+        MatIconModule
+      ]
     })
     .compileComponents();
   }));

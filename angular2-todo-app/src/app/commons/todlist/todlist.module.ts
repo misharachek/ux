@@ -7,9 +7,9 @@ import {ContentModule} from './content';
 import {FooterModule} from './footer';
 
 // angular material
-import {MatCardModule} from "@angular/material";
+import {MatCardModule} from '@angular/material';
 
-//rot component
+// rot component
 import {TodolistComponent} from './root';
 
 @NgModule({

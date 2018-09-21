@@ -1,9 +1,8 @@
 .todolist-wrapper {
   position: absolute;
   top: 30%;
-  left: 30%;
-  right: 30%;
-  bottom: 35%;
+  left: 35%;
+  right: 35%;
   background: #e5ead7;
 }
 

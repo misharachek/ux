@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {locales} from "./locales";
+import {locales} from './locales';
 
 @Component({
   selector: 'app-header',

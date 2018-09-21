@@ -4,9 +4,17 @@ import {
   TestBed
 } from '@angular/core/testing';
 
+// angular material
+import {
+  MatCheckboxModule,
+  MatIconModule,
+  MatDividerModule
+} from '@angular/material';
+
 // child
 import {TodolistItemComponent} from '../todolist-item';
 
+// root component
 import {ContentComponent} from './content.component';
 
 describe('ContentComponent', () => {
@@ -18,6 +26,11 @@ describe('ContentComponent', () => {
       declarations: [
         ContentComponent,
         TodolistItemComponent
+      ],
+      imports: [
+        MatCheckboxModule,
+        MatDividerModule,
+        MatIconModule
       ]
     })
     .compileComponents();

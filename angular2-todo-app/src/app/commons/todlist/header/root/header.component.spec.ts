@@ -3,13 +3,13 @@ import {
   ComponentFixture,
   TestBed
 } from '@angular/core/testing';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 // angular material
 import {
   MatButtonModule,
   MatInputModule
-} from "@angular/material";
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+} from '@angular/material';
 
 // root component
 import {HeaderComponent} from './header.component';

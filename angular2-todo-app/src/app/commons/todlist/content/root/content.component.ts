@@ -10,7 +10,7 @@ import {
 })
 export class ContentComponent implements OnInit {
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
   }

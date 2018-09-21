@@ -6,7 +6,7 @@ import {
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 // angular material
-import {MatCardModule} from "@angular/material";
+import {MatCardModule} from '@angular/material';
 
 // children
 import {HeaderModule} from '../header';
