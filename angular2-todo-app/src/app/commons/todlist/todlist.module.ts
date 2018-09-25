@@ -1,6 +1,9 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 
+// service
+import {TodoService} from './services';
+
 // children
 import {HeaderModule} from './header';
 import {ContentModule} from './content';
@@ -22,6 +25,9 @@ import {TodolistComponent} from './root';
   ],
   declarations: [
     TodolistComponent
+  ],
+  providers: [
+    TodoService
   ],
   exports: [
     TodolistComponent
